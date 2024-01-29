@@ -1,0 +1,2 @@
+node_modules
+# .dockerignore file is used to exclude files from the build context
