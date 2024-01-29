@@ -11,8 +11,8 @@ RUN apt-get install -y nodejs
 # COPY <source> <destination>
 COPY package.json package.json
 COPY package-lock.json package-lock.json
-COPY main.js main.js
 RUN npm install
+COPY main.js main.js
 
 
 # ENTRYPOINT is the command that will be executed when the container starts
